@@ -68,6 +68,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
+          
           <h2>Introduction</h2>
 
           <p><a href='https://schoolstatefinance.org/'>The School + State Finance Project</a> is a non-profit organization whose stated aim is to work with Connecticut policymakers to eliminate disparities in funding education funding across the state. This work includes addressing and researching how funding varies across districts based on certain student enrollment demographics, such as being low-income, a multilingual learner, or having a disability. But the project’s main focus, as well as that of this data story, is school funding gaps along racial/ethnic lines; as the project has found, decades of exclusionary policies and laws have left Connecticut segregated, with the state’s towns that have the highest percentages of Black, Indigenous, Latino, and any other person of color (BILPOC) residents frequently having some of the lowest median household incomes in the state <a href='https://schoolstatefinance.org/issues/segregated-connecticut'>(School and State Finance Project)</a>. </p>
@@ -86,26 +87,35 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
 
-          <h2>Conneticut Data</h2>
+          <h2>Connecticut Data</h2>
         
           <p>When considering both Connecticut and Massachusetts, it is important first to look at the states separately. Beginning with Connecticut, we started with general data about both BILPOC populations across the state as well as median household income, a metric that we used as a measure of each Connecticut town’s comparative wealth.</p>
+
+          <p>The two maps below reveal a striking pattern: the areas in the state that have the highest percentages of BILPOC populations also frequently have the lowest median household incomes. </p>
 
           <iframe title="Percent BILPOC Population and Median Household Income in Connecticut, 2023" aria-label="Choropleth map" id="datawrapper-chart-nzrhy" src="https://datawrapper.dwcdn.net/nzrhy/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
 
 
           <p><a href='https://datawrapper.dwcdn.net/nzrhy/3/'>(Figure 1)</a>: A map of Connecticut which allows you to switch between seeing each town’s BILPOC population and median household income.
- </p>
 
+          <p>One of the most obvious places where this pattern is evident is in the center of the state with Hartford; with one of the highest BILPOC populations in Connecticut, it also has the lowest median household income at $45,000. Conversely, Darien, in the southeast corner of the state, has a relatively low BILPOC population at 15.7%, while having a median household income of over $250,000. Generally, the darkest areas on the BILPOC population map (indicating a high population) are the lightest on the income map (indicating a low income).
 
+<p>The maps serve as a good guiding post as to specific school districts we can look at in the state. The district data we found pertained to student enrollment in the state’s school districts by race, as well as a per pupil expenditure (PPE) amount, which is a rough calculation of how much a district spends per enrolled student. </p>
 
-          <p>The two maps reveal a striking pattern: the areas in the state that have the highest percentages of BILPOC populations also frequently have the lowest median household incomes. The most obvious places where this pattern is evident is in the center of the state with Hartford; with one of the highest BILPOC populations in Connecticut, it also has the lowest median household income at $45,000. Conversely, Darien, in the southeast corner of the state, has a relatively low BILPOC population at 15.7%, while having a median household income of over $250,000. Generally, the darkest areas on the BILPOC population map (indicating a high population) are the lightest on the income map (indicating a low income).
+<p>The table below shows the PPE and percent BILPOC student enrollment for all of Connecticut’s school districts.</p>
 
-<p>This map serves as a good guiding post as to specific school districts we can look at in the state. The district data we found pertained to student enrollment in the state’s school districts by race, as well as a per pupil expenditure (PPE) amount, which is a rough calculation of how much a district spends per enrolled student. </p>
+          <iframe title="CT School Districts' Per Pupil Expenditure and Percent BILPOC Enrollment, 2023-24" aria-label="Table" id="datawrapper-chart-m71sr" src="https://datawrapper.dwcdn.net/m71sr/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="685" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+          
+          <p><a href='https://datawrapper.dwcdn.net/m71sr/2/'>(Figure 2)</a>: Table featuring Connecticut school districts’ PPE and percent BILPOC enrollment.</p>
+
+          <p>Falling in line with the patterns revealed in the maps, the town school districts for areas located in the high BILPOC, low income areas of the state are among the last in this sorted table, which corresponds to high BILPOC, low PPE school districts. Continuing with Hartford and Darien as examples, Hartford School District can be seen in the table with a 93.41% BILPOC enrollment and a PPE of $23,095. On the other hand, Darien School District has a much lower BILPOC enrollment of 19.23% and one of the higher PPE amounts at $25,891.</p>
+
+<p>Charting all of these school districts out below, we found that there is a slight negative relationship between percent BILPOC enrollment and PPE: in other words, as the former increases, the latter decreases.</p>
+          
           <iframe title="Percentage of CT School Districts' BILPOC Enrollment and Per Pupil Expenditure, 2023-24" aria-label="Scatter Plot" id="datawrapper-chart-4whZY" src="https://datawrapper.dwcdn.net/4whZY/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="395" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
 
-<p><a href='https://datawrapper.dwcdn.net/4whZY/4/'>(Figure 2)</a>: The scatterplot chart above compares Connecticut school districts’ BILPOC enrollment (x-axis) and PPE (y-axis).
-</p>
-<p>As the chart’s trend line reveals, there is a slight negative relationship between these two amounts: namely, as a Connecticut school district’s BILPOC enrollment increases, its PPE decreases. And falling in line with the patterns revealed in the map, the town school districts for areas located in the high BILPOC, low income areas of the state fall along the right side of the graph, which corresponds to high BILPOC, low PPE school districts. Hartford School District can be seen here, with a 93.41% BILPOC enrollment and a PPE of $23,095. On the other side of the chart, Darien School District has a much lower BILPOC enrollment of 19.23% and one of the higher PPE amounts at $25,891. </p>
+<p><a href='https://datawrapper.dwcdn.net/4whZY/4/'>(Figure 3)</a>: Scatterplot chart comparing Connecticut school districts’ BILPOC enrollment (x-axis) and PPE (y-axis). The black trend line reveals a correlation of -0.31.
+  
           <p>These data and visualizations reveal a pattern of disparity: just as towns in Connecticut with high BILPOC populations have lower incomes, their school districts, which have higher amounts of BILPOC students enrolled, receive less funding. </p>
         </div>
       </div>
