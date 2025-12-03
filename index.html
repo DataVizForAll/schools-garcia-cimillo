@@ -37,13 +37,16 @@
             <a class="nav-link js-scroll-trigger" href="#section1">Introduction</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#section2">Massachusetts Data</a>
+            <a class="nav-link js-scroll-trigger" href="#section2">Connecticut Data</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#section3">How We Got Our Data</a>
+            <a class="nav-link js-scroll-trigger" href="#section3">Massachusetts Data</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#section4">EDIT Section 4</a>
+            <a class="nav-link js-scroll-trigger" href="#section4">Findings</a></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#section4">Methods</a>
           </li>
         </ul>
       </div>
@@ -54,7 +57,7 @@
   <header class="bg-primary text-white">
     <div class="container text-center">
       <h1>Are Connecticut and Massachusetts School Districts Racially Equitable? </h1>
-      <p class="lead">by Nick Cimillo '26 and Loretta Garcia '27 here</p>
+      <p class="lead">by Nick Cimillo '26 and Loretta Garcia '27</p>
       <p class="lead">Last updated on December 2, 2025</p>
       <p class="lead">for EDUC 206 - Data Visualization for All</br>with Prof. Jack Dougherty</br>Trinity College, Hartford CT, USA</p>
     </div>
@@ -84,15 +87,19 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
 
-          <h2>Massachusetts Data</h2>
+          <h2>Conneticut Data</h2>
 
-          <iframe title="Median Household Income in MA Towns and Percent BILPOC District Enrollment" aria-label="Choropleth map" id="datawrapper-chart-SVv1M" src="https://datawrapper.dwcdn.net/SVv1M/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="560" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+          <iframe title="Percent BILPOC Population and Median Household Income in Connecticut, 2023" aria-label="Choropleth map" id="datawrapper-chart-nzrhy" src="https://datawrapper.dwcdn.net/nzrhy/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
 
-          <p>Figures 1 and 2: A map of median household income in Massachusetts, compared with a table of MA school district BILPOC enrollment percentages.</p>
 
-          <p>The map above reveals that some of the towns in Massachusetts with the highest median household income are in the eastern half of the state, mainly surrounding Boston. The table of MA school districts, on the other hand, reveals that these wealthy suburbs routinely have lower percentages of BILPOC students enrolled in their local districts. Take Tewksbury; the map reveals it to have a median household income of $234.6K, while the table shows that its town school district has a BILPOC enrollment of only 22.2%. Similarly, Wilmington, which has one of the highest median incomes at $250k, has a BILPOC enrollment of 19.7%.</p>
+          <p><a href='https://datawrapper.dwcdn.net/nzrhy/3/'>(Figure 1)</a>: A map of Connecticut which allows you to switch between seeing each town’s BILPOC population and median household income.
+ </p>
 
-          <p>Some of MA’s school districts are regional, and thus could not be placed precisely on the state map. Others are charter school districts, routinely have very high percentages of BILPOC students. An interesting example can be seen with the Foxborough Regional Charter district, which has a rather high BILPOC enrollment of 85.3%. But the town’s school district has only 27.3% BILPOC enrollment, and its median household income is also one of the highest visible on the map at $250k. This observation calls into question whether or not these regional/charter districts, which seem predominantly BILPOC, have similar levels of school funding as predominantly white ones, even when they’re within the same region.</p>
+          <p>When considering both Connecticut and Massachusetts, it is important first to look at the states separately. Beginning with Connecticut, we started with general data about both BILPOC populations across the state as well as median household income, a metric that we used as a measure of each Connecticut town’s comparative wealth.</p>
+
+          <p>The two maps reveal a striking pattern: the areas in the state that have the highest percentages of BILPOC populations also frequently have the lowest median household incomes. The most obvious places where this pattern is evident is in the center of the state with Hartford; with one of the highest BILPOC populations in Connecticut, it also has the lowest median household income at $45,000. Conversely, Darien, in the southeast corner of the state, has a relatively low BILPOC population at 15.7%, while having a median household income of over $250,000. Generally, the darkest areas on the BILPOC population map (indicating a high population) are the lightest on the income map (indicating a low income).
+
+This map serves as a good guiding post as to specific school districts we can look at in the state. The district data we found pertained to student enrollment in the state’s school districts by race, as well as a per pupil expenditure (PPE) amount, which is a rough calculation of how much a district spends per enrolled student. </p>
 
         </div>
       </div>
